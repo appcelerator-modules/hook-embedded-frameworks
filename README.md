@@ -3,7 +3,7 @@ Support embedded frameworks in native Titanium modules and Hyperloop.
 
 ### Usage
 1. Download the `ti.dynamiclib.js` file and open it
-2. Search for the `frameworkPaths` and specify your framework path(s). The paths are relative to the `build/iphone` directory.
+2. Search for the `frameworkPaths` and specify your framework path(s). The paths are relative to the `build/iphone` directory
 3. Adjust your module project code
     - For classic modules:
         * Add `LD_RUNPATH_SEARCH_PATHS=$(inherited) "@executable_path/Frameworks" $(FRAMEWORK_SEARCH_PATHS)` to your module.xcconfig
@@ -19,8 +19,8 @@ Support embedded frameworks in native Titanium modules and Hyperloop.
 Apache 2.0
 
 ### Legal
-This module is Copyright (c) 2016 by Axway. All Rights Reserved. Usage of this module is subject 
+This module is Copyright (c) 2016-present by Axway Appcelerator. All Rights Reserved. Usage of this module is subject 
 to the Terms of Service agreement with Axway, Inc. 
 
 ### Contributing
-Code contributions are greatly appreciated, please submit a new [Pull Request](https://github.com/appcelerator/APSKeychainWrapper/pull/new/master)!
+Code contributions are greatly appreciated, please submit a new [Pull Request](https://github.com/appcelerator-modules/hook-embedded-frameworks/pull/new/master)!
