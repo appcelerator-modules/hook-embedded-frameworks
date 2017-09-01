@@ -2,6 +2,10 @@
 Support embedded frameworks in native Titanium modules and Hyperloop. 
 To add Swift framework-support to your module, check out the [hook-swift-frameworks](https://github.com/appcelerator-modules/hook-swift-frameworks) repository 🙌.
 
+### ⚠️ DEPRECATION-WARNING
+If you are using Titanium SDK 6.2.0 or later, this hook is not required anymore, as full dynamic-lbrary support is already
+integrated into the SDK. If you are having an open-source module that targets SDK < 6.2.0, you can still support both techniques, since the hook will detect the SDK version and skip further adjustments if already existing.
+
 ### Usage
 1. Download the `ti.dynamiclib.js` file and open it
 2. Search for the `frameworkPaths` and specify your framework path(s). The paths are relative to the `build/iphone` directory
